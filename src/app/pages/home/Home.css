@@ -1,0 +1,21 @@
+.main-div {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.grid {
+  box-shadow: none !important;
+}
+
+.dashboard-title {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  color: #000000 !important;
+  /* letter-spacing: 1px !important; */
+}
+
+.push-pin {
+  margin-left: 10px;
+  margin-right: 5px;
+}

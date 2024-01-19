@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Nova";
+}
+
+.grid-item {
+  border: none !important;
+  box-shadow: none !important;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+.fgt-pwd-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0px;
+}
+.fgt-pwd-text a {
+  cursor: pointer !important;
+  color: #00A546;
+  font-size: 14px !important;
+}
+
+.login-key-logo {
+  margin: 0;
+  padding: 0;
+}
+
+.Login-form {
+  width: "480px" !important;
+}
+
+.checkbox-label span {
+  font-size: 14px !important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .Login-form {
+    width: "350px" !important;
+  }
+}
+
+/* extra css  */
+.profile-icon {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+/* .image-logo {
+  animation: rotate 2s linear infinite;
+} */
+
+.signin-title {
+  font-family: "Arial Nova";
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.6rem;
+  margin-left: 0.4rem;
+}
+
+.not-member-account {
+  color: black;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+}
+.not-member-account span {
+  color: #00A546;
+  cursor: pointer;
+}
+
+.form-control.is-invalid {
+  background-image: none;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+.landingpage{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landingpage-header {
+  width: 100%;
+  height: 70px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.profile-icon {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  background-repeat: no-repeat;
+  margin-top: -6px;
+}
+
+.list-items {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 60px;
+}
+
+/* landing page body css */
+.landingpage-body {
+  font-family: 'Raleway';
+  display: flex;
+}
+.landingpage-body .greeting-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 40px 0px 0px 120px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.landingpage-body .greeting-description {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  padding: 30px 0px 0px 120px;
+  color: #000000;
+}
+
+.landingpage-body .greeting-details {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  padding: 30px 0px 0px 120px;
+  color: #777777;
+}
+
+.landingpage-body .login-button {
+  font-size: 16px;
+  width: 168px;
+  height: 53px;
+  margin-top: 40px;
+  color: white;
+  background: #6500b0;
+  border-radius: 15px;
+}
